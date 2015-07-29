@@ -1,0 +1,1 @@
+DeclencheSon, MM.Direct 0;DeclencheImage, MM.Direct 0;ColorR, MM.Direct 2;ColorV, MM.Direct 2;ColorB, MM.Direct 2;Rouge, MM.MinMax 2 0. 1. 92. 109.;Vert, MM.MinMax 2 0. 1. 92. 109.;Bleu, MM.MinMax 2 0. 1. 92. 109.;ReverbTime, MM.MinMax 2 0. 1. 50. 104.;AnchorX, MM.MinMax 1 0. 1. 0.495 0.505;AnchorY, MM.MinMax 2 0. 1. 0.495 0.505;RoomSize, MM.MinMax 1 0. 1. 291. 313.;

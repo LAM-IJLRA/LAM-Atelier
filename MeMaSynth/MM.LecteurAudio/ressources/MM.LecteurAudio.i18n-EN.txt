@@ -1,0 +1,8 @@
+"Temps de délai en millisecondes (0-1000)", "Delay time in milliseconds (0-1000)";
+"Niveau de sortie (0-1)", "Output level (0-1)";
+"Luminosité de l'objet (0-1)", "Object luminosity (0-1)";
+
+"Matière sonore", "Sonic material";
+"Matière visuelle", "Visual material";
+"Paramètres Audio", "Audio parameters";
+"Paramètres Vidéo", "Video parameters";

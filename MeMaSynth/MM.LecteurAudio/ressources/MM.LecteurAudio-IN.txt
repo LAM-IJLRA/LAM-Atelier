@@ -1,0 +1,2 @@
+level, Audio "Niveau de sortie" @min 0. @max 100.;trackSelection, Symbole "Selection des pistes";play/pause, Audio Play/Pause @norm 0;start, Audio "Début de la sélection" @norm 0;end, Audio "Fin de la sélection";pitch, Audio Pitch @norm 0;loop, Audio "Loop On/Off" @norm 0;stop, Audio "Stop - Revenir au début de la sélection";loopstart, Audio "Loop Start";loopend, Audio "Loop End";loopONOFF, Audio "Loop ON/OFF";
+loopstop, Audio "Loop Stop";

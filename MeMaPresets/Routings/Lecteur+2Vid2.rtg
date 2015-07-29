@@ -1,0 +1,1 @@
+1-MeMaSetVideoOut1, Bus-1;2-MeMaSetVideoOut1, Bus-2;3-MeMaSetVideoOut1, MM-VideoMaster;Video.Configuration, Lecteur+2Vid2;1-MeMaSetVideoOut2, OFF;3-MeMaSetDac1, 1-AudioOut;3-MeMaSetDac2, 2-AudioOut;3-MeMaSetDac3, OFF;3-MeMaSetDac4, OFF;

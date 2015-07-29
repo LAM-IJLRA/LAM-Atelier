@@ -1,0 +1,1 @@
+Declenche, MM.Direct 0;PositionX, MM.Lissage 1 -1. 1. 1000;PositionY, MM.Lissage 2 -0.8 0.8 1000;Selection1, MM.Direct 0;RotationX, MM.Lissage 2 -360. 360. 1000;RotationY, MM.Lissage 1 -360. 360. 1000;

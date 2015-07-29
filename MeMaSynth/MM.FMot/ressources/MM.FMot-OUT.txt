@@ -1,0 +1,6 @@
+Env1, Env1;
+Env2, Env2;
+Env3, Env3;
+Rotation, Rotation;
+Declenchement, Declenchement;
+EnvPosition, EnvPosition;

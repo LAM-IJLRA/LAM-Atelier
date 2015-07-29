@@ -1,0 +1,2 @@
+SamplePosition, "Position dans le sample";
+Inertie, "Inertie de la platine";

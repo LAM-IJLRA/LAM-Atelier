@@ -1,0 +1,1 @@
+PositionY, MM.MMCB 2 -0.02 0.02 0. 0.1;ColorR, MM.CombinationMMCB none 0 0.7 1. 2 0. 1. 0. 100. 90. 0.;ColorV, MM.CombinationMMCB none 0 0.7 1. 2 0. 1. 0. 100. 90. 0.;ColorB, MM.MinMax-MMCB 0. 1. 0 0.7 1. 0. 100. 90. 0.;PonderationTheta, MM.MMCB 1 -1. 1. 0. 0.;

@@ -1,0 +1,1 @@
+level, MM.MinMax 2 0. 1. 0. 100.;play/pause, MM.Interrupteur 0 0.5;play, MM.Direct 0;

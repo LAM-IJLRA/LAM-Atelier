@@ -1,0 +1,1 @@
+1-MeMaSetVideoOut1, Bus-2;2-MeMaSetVideoOut1, Bus-1;3-MeMaSetVideoOut1, Bus-1;Video.Configuration, 3Grooves;1-MeMaSetDac1, 1-AudioOut;1-MeMaSetDac2, 2-AudioOut;1-MeMaSetVideoOut2, OFF;2-MeMaSetDac1, OFF;2-MeMaSetDac2, 2-AudioOut;2-MeMaSetVideoOut2, OFF;3-MeMaSetDac1, 1-AudioOut;3-MeMaSetDac2, OFF;3-MeMaSetVideoOut2, OFF;

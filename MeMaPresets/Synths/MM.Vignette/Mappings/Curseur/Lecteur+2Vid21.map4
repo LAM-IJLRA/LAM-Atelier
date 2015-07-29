@@ -1,0 +1,1 @@
+Declenche, MM.Direct 0;Selection1, MM.Direct 0;Volume, MM.Combination mul 0 0. 1. 2 0. 100.;RotationY, MM.Lissage 1 80. -80. 1000;RotationX, MM.Lissage 2 -20. 20. 1000;

@@ -1,0 +1,2 @@
+YPosition, "Y Position";
+Trig, Declenchement;

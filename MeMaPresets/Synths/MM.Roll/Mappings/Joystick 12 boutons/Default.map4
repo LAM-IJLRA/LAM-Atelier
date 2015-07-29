@@ -1,0 +1,8 @@
+Touche0, MM.Direct 0;
+Touche1, MM.Direct 6;
+Touche2, MM.Direct 7;
+ToucheIndex1, MM.Direct 10;
+ToucheIndex2, MM.Direct 11;
+Touche3, MM.Direct 8;
+VolumeSortie, MM.Direct 15;
+IntensiteLum, MM.Direct 15;

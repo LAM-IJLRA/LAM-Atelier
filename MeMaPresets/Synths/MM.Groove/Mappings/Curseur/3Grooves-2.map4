@@ -1,0 +1,1 @@
+DeclencheSon, MM.Direct 0;DeclencheImage, MM.Direct 0;SelTexture1, MM.MinMax 0 0. 1. 1. 1.;Sample1.selection, MM.MinMax 0 0. 1. 1. 1.;Division_rythmique, MM.MinMax 0 0. 1. 1. 1.;DebutDeBoucle, MM.MinMax 0 0. 1. 0. 0.;Volume, MM.MMCB 1 0. 100. 100. 0.;Intensite, MM.MMCB 1 0. 100. 100. 0.;PositionX, MM.MinMax 0 0. 1. 1. 1.;

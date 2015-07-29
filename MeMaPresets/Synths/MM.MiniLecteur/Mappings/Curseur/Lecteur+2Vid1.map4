@@ -1,0 +1,1 @@
+play, MM.Direct 0;Sample1_Pitch, MM.Lissage 2 -24. 12. 1000;Sample1_Duree, MM.Combination none 6 500. 500. 3 1000. 1000. 7 250. 250.;Sample1_Start, MM.Seuil 4 0. 0. 1500.;

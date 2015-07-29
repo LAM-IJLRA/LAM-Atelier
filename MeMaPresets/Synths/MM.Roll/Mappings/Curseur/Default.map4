@@ -1,0 +1,1 @@
+Touche0, MM.Direct 0;IntensiteLum, MM.MinMax 2 0. 1. 0. 0.5;VolumeSortie, MM.Direct 2;ToucheIndex1, MM.Direct 4;Volume, MM.MinMax 2 0. 1. 0. 100.;Touche1, MM.Direct 3;Touche2, MM.Direct 6;Touche3, MM.Direct 7;

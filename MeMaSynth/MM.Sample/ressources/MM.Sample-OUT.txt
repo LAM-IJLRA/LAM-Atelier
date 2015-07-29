@@ -1,0 +1,2 @@
+PlayPosition, "Position dans le son";
+Trig, Declenchement;

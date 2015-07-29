@@ -1,0 +1,3 @@
+TimeMiniLecteur, "Position temps";
+Sample_Start, "Temps début";
+Sample_Duree, "Temps Fin";

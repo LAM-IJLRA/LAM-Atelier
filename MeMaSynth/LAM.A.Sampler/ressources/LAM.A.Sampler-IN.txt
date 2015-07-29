@@ -1,0 +1,11 @@
+/level, Audio "Niveau de sortie" @min 0. @max 100. @norm 0. @help "Niveau de sortie audio /%";
+/sample1, type_buffer "sample 1" @help "Choix du fichier son";
+/sample1/loop/start, type_float "loop start" @help "Temps de début de boucle";
+/sample1/loop/end, type_float "loop end" @help "Temps de fin de boucle";
+/sample1/loop, type_float "loop mode" @help "Mode boucle on/off";
+/sample1/transpose, type_float "transposition semitone" @help "Transposition du sample en 1/2 tons";
+/sample1/play, type_toggle "PLAY !" @help "PLAY !";
+/waveform/scale, type_list "waveform scale" @min 0 @max 2 @help "Taille de la visualisation";
+/waveform/position, type_list "waveform position" @min -2 @max 2;
+/sample1/display/start, type_float "/sample1/display/start default description";
+/sample1/display/end, type_float "/sample1/display/end default description";
