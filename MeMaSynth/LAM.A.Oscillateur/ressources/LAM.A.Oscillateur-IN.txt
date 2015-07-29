@@ -1,0 +1,1 @@
+/level, Audio "Niveau de sortie" @min 0. @max 100. @norm 0. @help "Niveau de sortie audio /%";

@@ -1,0 +1,9 @@
+"Temps de délai", "Delay time";
+"Niveau d’entrée", "Input level"; 
+"Niveau de sortie", "Output level";
+"Luminosité de l'objet", "Object luminosity";
+
+"Matière sonore", "Sonic material";
+"Matière visuelle", "Visual material";
+"Paramètres Audio", "Audio parameters";
+"Paramètres Vidéo", "Video parameters";

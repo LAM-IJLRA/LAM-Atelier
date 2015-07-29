@@ -1,0 +1,9 @@
+"Temps de délai", "Temps de délai";
+"Niveau d’entrée", "Niveau d’entrée"; 
+"Niveau de sortie", "Niveau de sortie";
+"Luminosité de l'objet", "Luminosité de l'objet ";
+
+"Matière sonore", "Matière sonore";
+"Matière visuelle", "Matière visuelle";
+"Paramètres Audio", "Paramètres Audio";
+"Paramètres Vidéo", "Paramètres Vidéo";
