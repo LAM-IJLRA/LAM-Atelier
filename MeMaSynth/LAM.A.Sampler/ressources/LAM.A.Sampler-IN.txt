@@ -9,3 +9,12 @@
 /waveform/position, type_list "waveform position" @min -2 @max 2;
 /sample1/display/start, type_float "/sample1/display/start default description";
 /sample1/display/end, type_float "/sample1/display/end default description";
+/waveform/color, type_list "/waveform/color default description";
+/selectshape/color, type_list "/selectshape/color default description";
+/grid/color, type_list "/grid/color default description";
+/text/color, type_list "/text/color default description";
+/playbar/color, type_list "/playbar/color default description";
+/text/display, type_toggle "/text/display default description";
+/playbar/display, type_toggle "/playbar/display default description";
+/grid/display, type_toggle "/grid/display default description";
+/selectshape/display, type_toggle "/selectshape/display default description";
