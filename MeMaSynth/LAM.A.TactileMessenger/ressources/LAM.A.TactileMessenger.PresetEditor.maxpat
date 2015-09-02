@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 78.0, 232.0, 1261.0, 425.0 ],
+		"rect" : [ 63.0, 475.0, 1261.0, 425.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -339,7 +339,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 661.25, 54.0, 186.0, 19.0 ]
+					"patching_rect" : [ 661.25, 55.0, 186.0, 19.0 ]
 				}
 
 			}
