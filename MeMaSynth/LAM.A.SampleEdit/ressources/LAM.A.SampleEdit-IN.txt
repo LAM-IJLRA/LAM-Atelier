@@ -4,8 +4,8 @@
 /sample1/loop/end, type_float "loop end" @help "Temps de fin de boucle";
 /sample1/loop, type_float "loop mode" @help "Mode boucle on/off";
 /sample1/play, type_toggle "PLAY !" @help "PLAY !";
-/waveform/scale, type_list "waveform scale" @min 0 @max 2 @help "Taille de la visualisation";
-/waveform/position, type_list "waveform position" @min -2 @max 2;
+/waveform/scale, type_list "waveform scale" @help "Taille de la visualisation";
+/waveform/position, type_list "waveform position";
 /sample1/display/start, type_float "Sample1 display start";
 /sample1/display/end, type_float "Sample1 display end";
 /waveform/color, type_list "Waveform color RGBA";
