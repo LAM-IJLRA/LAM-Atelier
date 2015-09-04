@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 65.0, 316.0, 935.0, 623.0 ],
+		"rect" : [ 444.0, 158.0, 935.0, 623.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -30,16 +30,113 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "#1", "#2", "/edit/normalize/value" ],
+					"id" : "obj-36",
+					"maxclass" : "bpatcher",
+					"name" : "SDK.float.GUI.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "" ],
+					"patching_rect" : [ 671.0, 316.0, 193.25, 23.0 ],
+					"presentation_rect" : [ 690.0, 479.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "#1", "#2", "/edit/normalize" ],
+					"id" : "obj-34",
+					"maxclass" : "bpatcher",
+					"name" : "SDK.button.GUI.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 701.25, 293.0, 164.0, 23.0 ],
+					"presentation_rect" : [ 685.5, 435.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "#1", "#2", "/edit/crop" ],
+					"id" : "obj-33",
+					"maxclass" : "bpatcher",
+					"name" : "SDK.button.GUI.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 701.25, 230.0, 164.0, 23.0 ],
+					"presentation_rect" : [ 671.0, 487.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "#1", "#2", "/record/internalsize" ],
+					"id" : "obj-32",
+					"maxclass" : "bpatcher",
+					"name" : "SDK.float.GUI.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "" ],
+					"patching_rect" : [ 236.0, 116.0, 189.0, 18.0 ],
+					"presentation_rect" : [ 237.0, 390.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "#1", "#2", "/record/ON" ],
+					"id" : "obj-30",
+					"maxclass" : "bpatcher",
+					"name" : "SDK.toggle.GUI.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 265.5, 97.0, 159.5, 18.0 ],
+					"presentation_rect" : [ 236.25, 139.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "#1", "#2", "/edit/mode" ],
+					"id" : "obj-29",
+					"maxclass" : "bpatcher",
+					"name" : "SDK.int.GUI.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 673.75, 102.5, 189.5, 21.5 ],
+					"presentation_rect" : [ 687.25, 280.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-25",
+					"items" : [ "display", ",", "select", ",", "loop", ",", "move", ",", "draw" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 792.0, 124.0, 73.25, 18.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "#1", "#2", "/edit/enable" ],
-					"border" : 1,
 					"id" : "obj-22",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.toggle.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 245.25, 297.0, 159.5, 18.0 ],
-					"presentation_rect" : [ 244.0, 294.0, 0.0, 0.0 ]
+					"patching_rect" : [ 701.25, 171.5, 164.0, 22.5 ]
 				}
 
 			}
@@ -52,7 +149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "open" ],
-					"patching_rect" : [ 230.0, 404.0, 44.0, 20.0 ],
+					"patching_rect" : [ 440.0, 404.0, 44.0, 20.0 ],
 					"text" : "t open"
 				}
 
@@ -66,7 +163,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.0, 430.0, 53.0, 20.0 ],
+					"patching_rect" : [ 440.0, 430.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1478,7 +1575,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 230.0, 458.0, 112.0, 20.0 ],
+					"patching_rect" : [ 440.0, 458.0, 112.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1508,7 +1605,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 230.0, 324.0, 182.0, 20.0 ],
+					"patching_rect" : [ 440.0, 324.0, 182.0, 20.0 ],
 					"text" : "Options d'affichage",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1553,7 +1650,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 230.0, 155.0, 190.0, 71.0 ]
+					"patching_rect" : [ 445.0, 97.0, 190.0, 71.0 ]
 				}
 
 			}
@@ -1581,49 +1678,33 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 230.0, 84.0, 190.0, 71.0 ]
+					"patching_rect" : [ 445.0, 213.0, 190.0, 71.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/sample1/play" ],
-					"border" : 1,
 					"id" : "obj-16",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.toggle.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 43.0, 297.0, 159.5, 18.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "#1", "#2", "/sample1/transpose" ],
-					"border" : 1,
-					"id" : "obj-15",
-					"maxclass" : "bpatcher",
-					"name" : "SDK.float.GUI.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 14.0, 267.0, 189.0, 18.0 ]
+					"patching_rect" : [ 40.0, 297.0, 159.5, 18.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/sample1/loop" ],
-					"border" : 1,
 					"id" : "obj-13",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.toggle.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 43.0, 232.0, 159.5, 18.0 ]
+					"patching_rect" : [ 41.0, 232.0, 159.5, 18.0 ]
 				}
 
 			}
@@ -1645,28 +1726,26 @@
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/sample1/loop/end" ],
-					"border" : 1,
 					"id" : "obj-8",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 14.0, 213.0, 189.0, 18.0 ]
+					"patching_rect" : [ 11.0, 213.0, 189.0, 18.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/sample1/loop/start" ],
-					"border" : 1,
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 14.0, 194.0, 189.0, 18.0 ]
+					"patching_rect" : [ 11.0, 194.0, 189.0, 18.0 ]
 				}
 
 			}
@@ -1693,7 +1772,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 440.0, 357.0, 24.0, 20.0 ],
+					"patching_rect" : [ 60.0, 468.0, 24.0, 20.0 ],
 					"text" : "t b"
 				}
 
@@ -1708,7 +1787,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 440.0, 389.0, 328.0, 20.0 ],
+					"patching_rect" : [ 60.0, 500.0, 328.0, 20.0 ],
 					"text" : "SDK.extraWindow #1 #2 ParamsAudioAvances.maxpat 240"
 				}
 
@@ -1752,7 +1831,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 440.0, 324.0, 200.0, 20.0 ],
+					"patching_rect" : [ 60.0, 435.0, 200.0, 20.0 ],
 					"text" : "Paramètres Audio Avancés",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1767,7 +1846,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 620.0, 143.0, 25.0, 20.0 ],
+					"patching_rect" : [ 197.0, 315.0, 25.0, 20.0 ],
 					"text" : "%",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1811,7 +1890,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 436.0, 144.0, 186.0, 19.0 ]
+					"patching_rect" : [ 10.0, 316.0, 191.5, 19.0 ]
 				}
 
 			}
@@ -1825,7 +1904,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 705.0, 53.0, 120.0, 22.0 ],
-					"text" : "Paramètres Vidéo",
+					"text" : "Edition settings",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "#0-Title4"
 				}
@@ -1853,7 +1932,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 480.0, 53.0, 121.0, 22.0 ],
-					"text" : "Paramètres Audio",
+					"text" : "Display settings",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "#0-Title3"
 				}
@@ -1881,7 +1960,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 269.0, 53.0, 111.0, 22.0 ],
-					"text" : "Matière visuelle",
+					"text" : "Record settings",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "#0-Title2"
 				}
@@ -1908,8 +1987,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 52.0, 106.0, 22.0 ],
-					"text" : "Matière sonore",
+					"patching_rect" : [ 43.0, 54.0, 119.0, 22.0 ],
+					"text" : "Playback settings",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "#0-Title1"
 				}
@@ -2110,10 +2189,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -2306,6 +2403,16 @@
 			}
 , 			{
 				"name" : "SDK.toggle.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SDK.int.GUI.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SDK.button.GUI.maxpat",
 				"type" : "JSON",
 				"implicit" : 1
 			}

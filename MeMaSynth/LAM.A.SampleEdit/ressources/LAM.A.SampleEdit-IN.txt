@@ -3,7 +3,6 @@
 /sample1/loop/start, type_float "loop start" @help "Temps de début de boucle";
 /sample1/loop/end, type_float "loop end" @help "Temps de fin de boucle";
 /sample1/loop, type_float "loop mode" @help "Mode boucle on/off";
-/sample1/transpose, type_float "transposition semitone" @help "Transposition du sample en 1/2 tons";
 /sample1/play, type_toggle "PLAY !" @help "PLAY !";
 /waveform/scale, type_list "waveform scale" @min 0 @max 2 @help "Taille de la visualisation";
 /waveform/position, type_list "waveform position" @min -2 @max 2;
@@ -19,3 +18,9 @@
 /playbar/color, type_list "Playbar color RGBA";
 /playbar/display, type_toggle "Playbar display";
 /edit/enable, type_toggle "Enable cursor editing";
+/edit/mode, type_int "Editing mode";
+/edit/crop, type_button "Crop buffer to selection";
+/record/ON, type_toggle "Record ON";
+/record/internalsize, type_float "Internal buffer size in ms" @min 1000 @max 30000;
+/edit/normalize, type_button "Normalize buffer";
+/edit/normalize/value, type_float "Normalization value (0-1)" @min 0 @max 1;
