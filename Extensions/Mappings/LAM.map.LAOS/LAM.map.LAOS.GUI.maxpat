@@ -773,7 +773,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 112.0, 510.0, 73.0, 20.0 ],
-					"text" : "pak i i i i f"
+					"text" : "pak i i i i i"
 				}
 
 			}

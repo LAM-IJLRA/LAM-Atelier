@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 10,
-			"architecture" : "x86"
+			"revision" : 9,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 480.0, 405.0, 1200.0, 891.0 ],
+		"rect" : [ 109.0, 131.0, 1200.0, 891.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -138,8 +138,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
-							"architecture" : "x86"
+							"revision" : 9,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 76.0, 433.0, 263.0, 253.0 ],
@@ -374,8 +374,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
-							"architecture" : "x86"
+							"revision" : 9,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -660,8 +660,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
-							"architecture" : "x86"
+							"revision" : 9,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1576,6 +1576,18 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 554.0, 42.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, -18.0, 461.0, 287.0 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -2037,7 +2049,55 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "panel.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "comment.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "umenu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zl.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "scale.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pak.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "slider.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rminus.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "append.mxo",
+				"type" : "iLaX"
+			}
+ ]
 	}
 
 }
