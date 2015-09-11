@@ -1,0 +1,4 @@
+version , 1.0;
+NomUserFriendly, "Mise à l'échelle avec hysteresis";
+Type, "scale";
+Input, 1;
