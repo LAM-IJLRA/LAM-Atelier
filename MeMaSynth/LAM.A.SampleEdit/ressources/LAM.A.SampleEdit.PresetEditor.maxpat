@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
-			"architecture" : "x64"
+			"revision" : 10,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 444.0, 158.0, 935.0, 623.0 ],
+		"rect" : [ 573.0, 134.0, 935.0, 623.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -30,6 +30,34 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "#1", "#2", "/sample1/display/length" ],
+					"id" : "obj-24",
+					"maxclass" : "bpatcher",
+					"name" : "SDK.float.GUI.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "" ],
+					"patching_rect" : [ 11.0, 273.0, 189.0, 18.0 ],
+					"presentation_rect" : [ 11.0, 272.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "#1", "#2", "/sample1/display/start" ],
+					"id" : "obj-27",
+					"maxclass" : "bpatcher",
+					"name" : "SDK.float.GUI.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "" ],
+					"patching_rect" : [ 11.0, 254.0, 189.0, 18.0 ],
+					"presentation_rect" : [ 11.0, 253.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
@@ -38,7 +66,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 578.0, 392.0, 97.0, 20.0 ],
-					"presentation_rect" : [ 576.0, 392.0, 0.0, 0.0 ],
 					"text" : "loadmess size 2"
 				}
 
@@ -204,8 +231,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
-							"architecture" : "x64"
+							"revision" : 10,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 237.0, 328.0, 754.0, 155.0 ],

@@ -1,0 +1,4 @@
+version , 1.0;
+NomUserFriendly, "Closest value in list";
+Type, "various";
+Inputs, 1;

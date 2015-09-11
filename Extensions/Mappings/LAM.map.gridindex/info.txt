@@ -1,0 +1,4 @@
+version , 1.0;
+NomUserFriendly, "2d grid index";
+Type, "various";
+Inputs, 2;

@@ -1,0 +1,4 @@
+version , 1.0;
+NomUserFriendly, "X/Y to amplitude mapping";
+Type, "various";
+Inputs, 2;

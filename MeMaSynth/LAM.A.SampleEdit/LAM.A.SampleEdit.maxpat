@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 10,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 273.0, 347.0, 1043.0, 455.0 ],
@@ -41,7 +41,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 523.0, 129.0, 868.0, 490.0 ],
@@ -704,7 +704,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 310.0, 45.0, 1115.0, 764.0 ],
@@ -836,7 +836,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 580.0, 230.0, 640.0, 480.0 ],
@@ -1171,7 +1171,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 580.0, 230.0, 640.0, 480.0 ],
@@ -1512,7 +1512,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 536.0, 327.0, 640.0, 480.0 ],
@@ -1823,7 +1823,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 586.0, 329.0, 640.0, 480.0 ],
@@ -2173,7 +2173,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 580.0, 230.0, 640.0, 480.0 ],
@@ -2508,7 +2508,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 536.0, 327.0, 640.0, 480.0 ],
@@ -2806,7 +2806,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 63.0, 364.0, 640.0, 480.0 ],
@@ -3095,7 +3095,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 578.0, 176.0, 640.0, 480.0 ],
@@ -3419,7 +3419,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 580.0, 230.0, 640.0, 480.0 ],
@@ -3456,7 +3456,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 10,
-															"architecture" : "x86"
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -4149,7 +4149,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -4951,7 +4951,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 439.0, 313.0, 798.0, 516.0 ],
@@ -5017,7 +5017,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 530.0, 103.0, 372.0, 372.0 ],
@@ -5507,7 +5507,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 515.0, 45.0, 640.0, 480.0 ],
@@ -5875,7 +5875,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 526.0, 154.0, 640.0, 480.0 ],
@@ -6279,7 +6279,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 350.5, 230.0, 205.0, 18.0 ],
-									"text" : "15171.internalBuffer"
+									"text" : "12954.internalBuffer"
 								}
 
 							}
@@ -6821,7 +6821,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 21.0, 165.0, 1260.0, 595.0 ],
@@ -6871,7 +6871,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 36.0, 219.0, 962.0, 432.0 ],
@@ -7449,7 +7449,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 47.0, 242.0, 1264.0, 764.0 ],
@@ -7573,7 +7573,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 10,
-															"architecture" : "x86"
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
@@ -7687,7 +7687,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 10,
-															"architecture" : "x86"
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -7856,7 +7856,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 10,
-															"architecture" : "x86"
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -8830,7 +8830,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -9156,7 +9156,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 487.625, 549.0, 113.0, 18.0 ],
-									"text" : "name 15396.node"
+									"text" : "name 13179.node"
 								}
 
 							}
@@ -9263,7 +9263,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 430.5, 222.0, 225.0, 20.0 ],
+									"patching_rect" : [ 325.0, 183.0, 225.0, 20.0 ],
 									"text" : "SDK.int #1 #2 /edit/mode"
 								}
 
@@ -9322,7 +9322,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 430.5, 252.0, 88.0, 20.0 ]
+									"patching_rect" : [ 325.0, 213.0, 88.0, 20.0 ]
 								}
 
 							}
@@ -9335,7 +9335,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 430.5, 275.0, 88.0, 20.0 ],
+									"patching_rect" : [ 325.0, 236.0, 88.0, 20.0 ],
 									"text" : "prepend mode"
 								}
 
@@ -9366,7 +9366,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 708.0, 259.0, 334.0, 246.0 ],
@@ -9431,7 +9431,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 10,
-															"architecture" : "x86"
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 402.0, 300.0, 640.0, 480.0 ],
@@ -9708,7 +9708,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 10,
-															"architecture" : "x86"
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 306.0, 288.0, 1134.0, 502.0 ],
@@ -10090,7 +10090,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 10,
-															"architecture" : "x86"
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 197.0, 489.0, 1134.0, 502.0 ],
@@ -10668,7 +10668,7 @@
 															"major" : 6,
 															"minor" : 1,
 															"revision" : 10,
-															"architecture" : "x86"
+															"architecture" : "x64"
 														}
 ,
 														"rect" : [ 217.0, 371.0, 928.0, 389.0 ],
@@ -11726,7 +11726,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 50.0, 95.0, 640.0, 480.0 ],
@@ -12136,7 +12136,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 10,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -12426,7 +12426,7 @@
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 474.5, 273.0, 440.0, 273.0 ],
+									"midpoints" : [ 369.0, 234.0, 334.5, 234.0 ],
 									"source" : [ "obj-17", 1 ]
 								}
 
@@ -13146,6 +13146,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 25.0, 273.0, 37.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -13160,6 +13164,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 49.0, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 

@@ -1,0 +1,1 @@
+Video.Configuration, NoFeedback;Audio.Configuration, Default;1-MeMaSetAdc1, 1-AudioIn;1-MeMaSetDac1, 1-AudioOut;1-MeMaSetVideoOut1, MM-VideoMaster;

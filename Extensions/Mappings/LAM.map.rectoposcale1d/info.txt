@@ -1,0 +1,4 @@
+version , 1.0;
+NomUserFriendly, "min/max to mean/ambitus";
+Type, "various";
+Inputs, 2;

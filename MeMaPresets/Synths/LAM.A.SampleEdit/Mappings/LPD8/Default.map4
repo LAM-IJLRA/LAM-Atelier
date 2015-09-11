@@ -1,0 +1,1 @@
+/sample1/display/scroll/absolute, MM.Direct 0;/sample1/display/zoom/absolute, MM.Direct 7;/sample1/play, MM.Interrupteur 8 0.1;/record/ON, MM.Interrupteur 15 0.1;/edit/crop, MM.Impulse 13 0.1;/edit/normalize, MM.Impulse 12 0.1;/edit/mode, MM.MinMax 4 0. 1. 0. 4.999;

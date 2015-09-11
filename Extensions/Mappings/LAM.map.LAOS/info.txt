@@ -1,2 +1,4 @@
 version , 1.0;
 NomUserFriendly, "Last Output Active Stack";
+Type, "various";
+Inputs, 2;

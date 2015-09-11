@@ -1,2 +1,0 @@
-version , 1.0;
-LAM.map.cartopol, "2 inputs - cardinal to polar mapping";
