@@ -1,0 +1,1 @@
+DeclencheSon, MM.Direct 0;DeclencheImage, MM.Direct 0;DivisionRythmique, MM.Direct 1;Transposition, MM.Direct 2;SustainIm, MM.Direct 3;Richesse_Harmonique, MM.MinMax 2 0. 1. 1. 0.;Intensite, MM.MMCB 0 0. 100. 100. 0.1;Volume, MM.MinMax 0 0. 1. 0. 100.;Declenche, MM.Direct 0;CoefVitesse, MM.MinMax 2 0. 1. 0. 1.;Lissage, MM.MinMax 2 0. 1. 20. -20.;
