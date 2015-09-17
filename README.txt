@@ -9,5 +9,5 @@
 INSTALLATION
 This is the source code of the project.
 Follow instruction provided with the Meta-Mallette software to install and use properly.
-It should probably be better downloaded and installed from the Meta-Librairie website (http://meta-librairie.com).
+It should probably be better downloaded and installed from the Meta-Librairie website (http://meta-librairie.com)..
 
