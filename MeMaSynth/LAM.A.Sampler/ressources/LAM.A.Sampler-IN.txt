@@ -12,12 +12,34 @@
 /waveform/position/y, type_float "/waveform/position/y default description";
 /waveform/scale/x, type_float "/waveform/scale/x default description";
 /waveform/scale/y, type_float "/waveform/scale/y default description";
-/selectshape/color, type_list "Selection color RGBA";
+/waveform/color/red, type_float "/waveform/color/red default description";
+/waveform/color/green, type_float "/waveform/color/green default description";
+/waveform/color/blue, type_float "/waveform/color/blue default description";
+/waveform/color/alpha, type_float "/waveform/color/alpha default description";
 /selectshape/display, type_toggle "Selection display";
-/grid/color, type_list "Grid color RGBA";
+/selectshape/color/red, type_float "/selectshape/color/red default description";
+/selectshape/color/green, type_float "/selectshape/color/green default description";
+/selectshape/color/blue, type_float "/selectshape/color/blue default description";
+/selectshape/color/alpha, type_float "/selectshape/color/alpha default description";
+
 /grid/display, type_toggle "Grid display";
-/text/color, type_list "Text color RGBA";
+/grid/color/red, type_float "/grid/color/red default description";
+/grid/color/green, type_float "/grid/color/green default description";
+/grid/color/blue, type_float "/grid/color/blue default description";
+/grid/color/alpha, type_float "/grid/color/alpha default description";
+
 /text/display, type_toggle "Text display";
-/playbar/color, type_list "Playbar color RGBA";
+/text/color/red, type_float "/text/color/red default description";
+/text/color/green, type_float "/text/color/green default description";
+/text/color/blue, type_float "/text/color/blue default description";
+/text/color/alpha, type_float "/text/color/alpha default description";
+
 /playbar/display, type_toggle "Playbar display";
+/playbar/color/red, type_float "/playbar/color/red default description";
+/playbar/color/green, type_float "/playbar/color/green default description";
+/playbar/color/blue, type_float "/playbar/color/blue default description";
+/playbar/color/alpha, type_float "/playbar/color/alpha default description";
+
 /edit/enable, type_toggle "Enable cursor editing";
+
+
