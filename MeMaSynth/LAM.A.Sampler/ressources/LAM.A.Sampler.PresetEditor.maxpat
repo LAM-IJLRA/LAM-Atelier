@@ -69,7 +69,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 804.5, 120.0, 69.5, 166.0 ],
-					"setminmax" : [ 0.0, 1.0 ]
+					"setminmax" : [ 0.0, 100.0 ]
 				}
 
 			}
@@ -1137,6 +1137,14 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "button.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "textbutton.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "number.mxo",
 				"type" : "iLaX"
 			}
@@ -1145,11 +1153,23 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "comment.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "combine.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "toggle.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "patcherargs.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -1170,6 +1190,10 @@
 			}
 , 			{
 				"name" : "sprintf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zl.mxo",
 				"type" : "iLaX"
 			}
 , 			{

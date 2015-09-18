@@ -75,7 +75,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1", "#2", "#3/loop/transpose" ],
+					"args" : [ "#1", "#2", "#3/transpose" ],
 					"id" : "obj-15",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
@@ -257,7 +257,15 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "textbutton.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "comment.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -266,6 +274,18 @@
 			}
 , 			{
 				"name" : "prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "toggle.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "button.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zl.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -302,6 +322,10 @@
 			}
 , 			{
 				"name" : "speedlim.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "patcherargs.mxo",
 				"type" : "iLaX"
 			}
 , 			{

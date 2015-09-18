@@ -67,6 +67,20 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-16",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 305.0, 351.0, 50.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-24",
 									"linecount" : 3,
 									"maxclass" : "message",
@@ -74,7 +88,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 508.0, 323.0, 50.0, 45.0 ],
-									"text" : "MM4.FluteWhisle.aif"
+									"text" : "MM4.GKCosmic.aif"
 								}
 
 							}
@@ -818,7 +832,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 157.0, 213.0, 646.0, 395.0 ],
+										"rect" : [ 392.0, 191.0, 646.0, 395.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 9.0,
@@ -871,12 +885,11 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-10",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 400.0, 262.804352, 154.0, 17.0 ],
+													"patching_rect" : [ 400.0, 262.804352, 203.0, 17.0 ],
 													"text" : "SDK.float #1 #2 /sample8/transpose"
 												}
 
@@ -887,12 +900,11 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-11",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 347.0, 240.975159, 154.0, 17.0 ],
+													"patching_rect" : [ 347.0, 240.975159, 203.0, 17.0 ],
 													"text" : "SDK.float #1 #2 /sample7/transpose"
 												}
 
@@ -903,12 +915,11 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-7",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 301.0, 219.145966, 154.0, 17.0 ],
+													"patching_rect" : [ 301.0, 219.145966, 203.0, 17.0 ],
 													"text" : "SDK.float #1 #2 /sample6/transpose"
 												}
 
@@ -919,12 +930,11 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-8",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 256.0, 197.316772, 154.0, 17.0 ],
+													"patching_rect" : [ 256.0, 197.316772, 203.0, 17.0 ],
 													"text" : "SDK.float #1 #2 /sample5/transpose"
 												}
 
@@ -935,12 +945,11 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-9",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 212.5, 175.487579, 154.0, 17.0 ],
+													"patching_rect" : [ 212.5, 175.487579, 203.0, 17.0 ],
 													"text" : "SDK.float #1 #2 /sample4/transpose"
 												}
 
@@ -951,12 +960,11 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-6",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 161.0, 153.658386, 154.0, 17.0 ],
+													"patching_rect" : [ 161.0, 153.658386, 203.0, 17.0 ],
 													"text" : "SDK.float #1 #2 /sample3/transpose"
 												}
 
@@ -967,12 +975,11 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-4",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 120.0, 131.829193, 154.0, 17.0 ],
+													"patching_rect" : [ 120.0, 131.829193, 203.0, 17.0 ],
 													"text" : "SDK.float #1 #2 /sample2/transpose"
 												}
 
@@ -1111,12 +1118,11 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-16",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 77.0, 110.0, 154.0, 17.0 ],
+													"patching_rect" : [ 77.0, 110.0, 203.0, 17.0 ],
 													"text" : "SDK.float #1 #2 /sample1/transpose"
 												}
 
@@ -3023,6 +3029,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-69", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -4865,7 +4880,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 350.5, 230.0, 205.0, 18.0 ],
-									"text" : "MM4.FluteWhisle.aif"
+									"text" : "MM4.GKCosmic.aif"
 								}
 
 							}
@@ -5444,7 +5459,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 195.0, 282.0, 117.0, 18.0 ],
-									"text" : "MM4.FluteWhisle.aif"
+									"text" : "MM4.GKCosmic.aif"
 								}
 
 							}
@@ -10760,6 +10775,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 25.0, 273.0, 37.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -10774,6 +10793,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 49.0, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
