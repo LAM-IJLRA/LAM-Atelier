@@ -5,11 +5,13 @@
 /sample1/loop, type_float "loop mode" @help "Mode boucle on/off";
 /sample1/transpose, type_float "transposition semitone" @help "Transposition du sample en 1/2 tons";
 /sample1/play, type_toggle "PLAY !" @help "PLAY !";
-/waveform/scale, type_list "waveform scale" @min 0 @max 2 @help "Taille de la visualisation";
-/waveform/position, type_list "waveform position" @min -2 @max 2;
 /sample1/display/start, type_float "Sample1 display start";
 /sample1/display/end, type_float "Sample1 display end";
 /waveform/color, type_list "Waveform color RGBA";
+/waveform/position/x, type_float "/waveform/position/x default description";
+/waveform/position/y, type_float "/waveform/position/y default description";
+/waveform/scale/x, type_float "/waveform/scale/x default description";
+/waveform/scale/y, type_float "/waveform/scale/y default description";
 /selectshape/color, type_list "Selection color RGBA";
 /selectshape/display, type_toggle "Selection display";
 /grid/color, type_list "Grid color RGBA";

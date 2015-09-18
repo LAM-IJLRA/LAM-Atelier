@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 10,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 221.0, 243.0, 1024.0, 481.0 ],
@@ -57,7 +57,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 10,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 21.0, 197.0, 830.0, 289.0 ],
@@ -129,7 +129,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 107.366226, 247.875, 377.0, 20.0 ],
-									"text" : "LAM.A.TactileMessenger.player LAM.A.TactileMessenger 1 /sample8"
+									"text" : "LAM.A.TactileMessenger.player #1 #2 /sample8"
 								}
 
 							}
@@ -143,7 +143,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 95.313904, 226.75, 377.0, 20.0 ],
-									"text" : "LAM.A.TactileMessenger.player LAM.A.TactileMessenger 1 /sample7"
+									"text" : "LAM.A.TactileMessenger.player #1 #2 /sample7"
 								}
 
 							}
@@ -157,7 +157,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 83.261581, 205.625, 377.0, 20.0 ],
-									"text" : "LAM.A.TactileMessenger.player LAM.A.TactileMessenger 1 /sample6"
+									"text" : "LAM.A.TactileMessenger.player #1 #2 /sample6"
 								}
 
 							}
@@ -171,7 +171,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 71.209274, 184.5, 377.0, 20.0 ],
-									"text" : "LAM.A.TactileMessenger.player LAM.A.TactileMessenger 1 /sample5"
+									"text" : "LAM.A.TactileMessenger.player #1 #2 /sample5"
 								}
 
 							}
@@ -185,7 +185,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 59.156952, 163.375, 377.0, 20.0 ],
-									"text" : "LAM.A.TactileMessenger.player LAM.A.TactileMessenger 1 /sample4"
+									"text" : "LAM.A.TactileMessenger.player #1 #2 /sample4"
 								}
 
 							}
@@ -199,7 +199,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 47.104645, 142.25, 377.0, 20.0 ],
-									"text" : "LAM.A.TactileMessenger.player LAM.A.TactileMessenger 1 /sample3"
+									"text" : "LAM.A.TactileMessenger.player #1 #2 /sample3"
 								}
 
 							}
@@ -213,7 +213,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 35.052322, 121.125, 377.0, 20.0 ],
-									"text" : "LAM.A.TactileMessenger.player LAM.A.TactileMessenger 1 /sample2"
+									"text" : "LAM.A.TactileMessenger.player #1 #2 /sample2"
 								}
 
 							}
@@ -532,7 +532,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 110.0, 190.0, 100.0 ],
+					"patching_rect" : [ 25.0, 110.0, 193.0, 100.0 ],
 					"text" : "SDK.synth.system #1 #2 @nb_interfaces 4 @audioinputs 0 @audiooutputs 1 @videoinputs 0 @videooutputs 1 @pitch_enable 0 @pan_enable 0 @colortheme 0. 0.5 0.5 1."
 				}
 
@@ -851,6 +851,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 25.0, 273.0, 37.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -865,6 +869,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 49.0, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
