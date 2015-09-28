@@ -342,7 +342,6 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-25",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -369,7 +368,6 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-5",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 1,
@@ -4918,8 +4916,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 110.0, 172.0, 141.0 ],
-					"text" : "SDK.synth.system #1 #2 @nb_interfaces 4 @audioinputs 1 @audiooutputs 1 @videoinputs 0 @videooutputs 1 @pitch_enable 1 @pan_enable 1 @colortheme 0. 0.21875 0.5 1."
+					"patching_rect" : [ 25.0, 110.0, 155.0, 141.0 ],
+					"text" : "SDK.synth.system #1 #2 @nb_interfaces 4 @audioinputs 1 @audiooutputs 1 @videoinputs 0 @videooutputs 1 @pitch_enable 1 @pan_enable 1 @colortheme 0.8 0.8 0.4 1."
 				}
 
 			}
@@ -6281,7 +6279,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 350.5, 230.0, 205.0, 18.0 ],
-									"text" : "164351.internalBuffer"
+									"text" : "Vib_1_Tp_140.aif"
 								}
 
 							}
@@ -9158,7 +9156,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 487.625, 549.0, 113.0, 18.0 ],
-									"text" : "name 164576.node"
+									"text" : "name 6967.node"
 								}
 
 							}
@@ -10897,12 +10895,13 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-48",
+																	"linecount" : 2,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 315.0, 265.0, 194.0, 18.0 ],
-																	"text" : "1. 1. 1. 0.315508"
+																	"text" : "0.982512 0.612083 0.612083 0.695187"
 																}
 
 															}
@@ -13951,6 +13950,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 25.0, 273.0, 37.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -13965,6 +13968,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 49.0, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 

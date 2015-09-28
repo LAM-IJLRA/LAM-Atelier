@@ -31,30 +31,26 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/dim/y" ],
-					"border" : 1,
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.int.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 13.5, 323.5, 189.0, 18.0 ],
-					"presentation_rect" : [ 14.0, 421.5, 0.0, 0.0 ]
+					"patching_rect" : [ 13.5, 322.470581, 189.0, 18.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/dim/x" ],
-					"border" : 1,
 					"id" : "obj-6",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.int.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 306.5, 189.0, 18.0 ],
-					"presentation_rect" : [ 14.0, 403.5, 0.0, 0.0 ]
+					"patching_rect" : [ 14.0, 305.470581, 189.0, 18.0 ]
 				}
 
 			}
@@ -67,8 +63,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 286.0, 319.0, 81.0, 20.0 ],
-					"text" : "transparence",
+					"patching_rect" : [ 296.0, 319.0, 81.0, 20.0 ],
+					"text" : "opacité",
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
 				}
 
@@ -373,7 +369,6 @@
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/color/alpha" ],
-					"border" : 1,
 					"id" : "obj-33",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
@@ -387,112 +382,104 @@
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/color/blue" ],
-					"border" : 1,
 					"id" : "obj-32",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 230.5, 199.441177, 189.0, 18.0 ]
+					"patching_rect" : [ 230.5, 198.411758, 189.0, 18.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/color/green" ],
-					"border" : 1,
 					"id" : "obj-31",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 230.5, 182.470581, 189.0, 18.0 ]
+					"patching_rect" : [ 230.5, 181.441162, 189.0, 18.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/color/red" ],
-					"border" : 1,
 					"id" : "obj-30",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 230.5, 164.5, 189.0, 18.0 ]
+					"patching_rect" : [ 230.5, 163.470581, 189.0, 18.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/scale/y" ],
-					"border" : 1,
 					"id" : "obj-28",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 230.5, 140.0, 189.0, 18.0 ]
+					"patching_rect" : [ 230.5, 138.970581, 189.0, 18.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/scale/x" ],
-					"border" : 1,
 					"id" : "obj-29",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 230.5, 123.0, 189.0, 18.0 ]
+					"patching_rect" : [ 230.5, 121.970581, 189.0, 18.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/position/y" ],
-					"border" : 1,
 					"id" : "obj-27",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 230.5, 99.0, 189.0, 18.0 ]
+					"patching_rect" : [ 230.5, 97.970581, 189.0, 18.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/position/x" ],
-					"border" : 1,
 					"id" : "obj-25",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 230.5, 82.0, 189.0, 18.0 ]
+					"patching_rect" : [ 230.5, 80.970581, 189.0, 18.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/loop/end" ],
-					"border" : 1,
 					"id" : "obj-24",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 14.0, 198.5, 189.0, 18.0 ]
+					"patching_rect" : [ 14.0, 197.470581, 189.0, 18.0 ]
 				}
 
 			}
@@ -544,42 +531,39 @@
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/show" ],
-					"border" : 1,
 					"id" : "obj-16",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.toggle.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 43.0, 276.0, 159.5, 18.0 ]
+					"patching_rect" : [ 43.0, 274.970581, 159.5, 18.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/rate" ],
-					"border" : 1,
 					"id" : "obj-15",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 14.0, 254.0, 189.0, 18.0 ]
+					"patching_rect" : [ 14.0, 252.970581, 189.0, 18.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/loop" ],
-					"border" : 1,
 					"id" : "obj-13",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.toggle.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 43.0, 229.0, 159.5, 18.0 ]
+					"patching_rect" : [ 43.0, 227.970581, 159.5, 18.0 ]
 				}
 
 			}
@@ -601,28 +585,26 @@
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/loop/start" ],
-					"border" : 1,
 					"id" : "obj-8",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 14.0, 181.5, 189.0, 18.0 ]
+					"patching_rect" : [ 14.0, 180.470581, 189.0, 18.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/video/playposition" ],
-					"border" : 1,
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.float.GUI.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 14.0, 150.0, 189.0, 18.0 ]
+					"patching_rect" : [ 14.0, 148.970581, 189.0, 18.0 ]
 				}
 
 			}
@@ -728,7 +710,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 254.5, 52.0, 154.0, 22.0 ],
+					"patching_rect" : [ 254.5, 54.0, 154.0, 22.0 ],
 					"text" : "Paramètres d'affichage",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "#0-Title2"
@@ -756,7 +738,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.0, 52.0, 148.0, 22.0 ],
+					"patching_rect" : [ 40.0, 54.0, 148.0, 22.0 ],
 					"text" : "Paramètres de lecture",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "#0-Title1"

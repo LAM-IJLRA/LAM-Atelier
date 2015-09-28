@@ -527,13 +527,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
-					"linecount" : 7,
+					"linecount" : 10,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 110.0, 193.0, 100.0 ],
-					"text" : "SDK.synth.system #1 #2 @nb_interfaces 4 @audioinputs 0 @audiooutputs 1 @videoinputs 0 @videooutputs 1 @pitch_enable 0 @pan_enable 0 @colortheme 0. 0.5 0.5 1."
+					"patching_rect" : [ 25.0, 110.0, 155.0, 141.0 ],
+					"text" : "SDK.synth.system #1 #2 @nb_interfaces 4 @audioinputs 0 @audiooutputs 1 @videoinputs 0 @videooutputs 1 @pitch_enable 0 @pan_enable 0 @colortheme 0.4 0.8 0.8 1."
 				}
 
 			}
@@ -851,10 +851,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 25.0, 273.0, 37.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 1"
 				}
 
@@ -869,10 +865,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 49.0, 30.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 

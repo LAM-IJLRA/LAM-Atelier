@@ -32,6 +32,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1053.0, 391.0, 123.0, 18.0 ],
+					"text" : "bgcolor 0.4 0.8 0.4 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
@@ -239,7 +253,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 105.0, 267.0, 1061.0, 341.0 ],
+						"rect" : [ 105.0, 267.0, 1240.0, 544.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -278,7 +292,6 @@
 , 							{
 								"box" : 								{
 									"args" : [ "#1", "#2", "/waveform/scale/y" ],
-									"border" : 1,
 									"id" : "obj-44",
 									"maxclass" : "bpatcher",
 									"name" : "SDK.float.GUI.maxpat",
@@ -294,7 +307,6 @@
 , 							{
 								"box" : 								{
 									"args" : [ "#1", "#2", "/waveform/scale/x" ],
-									"border" : 1,
 									"id" : "obj-45",
 									"maxclass" : "bpatcher",
 									"name" : "SDK.float.GUI.maxpat",
@@ -310,7 +322,6 @@
 , 							{
 								"box" : 								{
 									"args" : [ "#1", "#2", "/waveform/position/y" ],
-									"border" : 1,
 									"id" : "obj-47",
 									"maxclass" : "bpatcher",
 									"name" : "SDK.float.GUI.maxpat",
@@ -326,7 +337,6 @@
 , 							{
 								"box" : 								{
 									"args" : [ "#1", "#2", "/waveform/position/x" ],
-									"border" : 1,
 									"id" : "obj-48",
 									"maxclass" : "bpatcher",
 									"name" : "SDK.float.GUI.maxpat",
@@ -408,8 +418,9 @@
 									"id" : "obj-96",
 									"maxclass" : "bpatcher",
 									"name" : "LAM.A.Sampler.PresetEditor.ColorPicker.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 904.0, 281.5, 197.0, 166.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 833.814575, 127.0, 191.868469, 188.0 ]
@@ -422,11 +433,12 @@
 									"id" : "obj-95",
 									"maxclass" : "bpatcher",
 									"name" : "LAM.A.Sampler.PresetEditor.ColorPicker.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 682.0, 281.5, 197.0, 166.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 627.85437, 127.0, 195.0, 188.0 ]
+									"presentation_rect" : [ 627.85437, 127.0, 190.0, 187.0 ]
 								}
 
 							}
@@ -436,11 +448,12 @@
 									"id" : "obj-94",
 									"maxclass" : "bpatcher",
 									"name" : "LAM.A.Sampler.PresetEditor.ColorPicker.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 469.0, 281.5, 197.0, 166.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 421.894135, 127.0, 195.0, 188.0 ]
+									"presentation_rect" : [ 421.894135, 127.0, 190.0, 187.0 ]
 								}
 
 							}
@@ -462,11 +475,12 @@
 									"id" : "obj-30",
 									"maxclass" : "bpatcher",
 									"name" : "LAM.A.Sampler.PresetEditor.ColorPicker.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 20.0, 281.5, 197.0, 166.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 7.0, 127.0, 196.0, 189.0 ]
+									"presentation_rect" : [ 7.0, 127.0, 191.0, 188.0 ]
 								}
 
 							}
@@ -615,17 +629,18 @@
 									"id" : "obj-93",
 									"maxclass" : "bpatcher",
 									"name" : "LAM.A.Sampler.PresetEditor.ColorPicker.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 240.0, 281.5, 197.0, 166.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 213.951447, 127.0, 197.0, 189.0 ]
+									"presentation_rect" : [ 213.951447, 127.0, 192.0, 188.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 0.21875, 0.5, 1.0 ],
+									"bgcolor" : [ 0.4, 0.8, 0.4, 1.0 ],
 									"id" : "obj-92",
 									"maxclass" : "panel",
 									"numinlets" : 1,
@@ -638,6 +653,15 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-93", 1 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-30", 1 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-44", 1 ],
 									"disabled" : 0,
@@ -754,6 +778,42 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-94", 1 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-93", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-95", 1 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-94", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-96", 1 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-95", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 1 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-96", 1 ]
+								}
+
+							}
  ]
 					}
 ,
@@ -796,7 +856,6 @@
 , 			{
 				"box" : 				{
 					"args" : [ "#1", "#2", "/loop" ],
-					"border" : 1,
 					"id" : "obj-13",
 					"maxclass" : "bpatcher",
 					"name" : "SDK.toggle.GUI.maxpat",
@@ -804,7 +863,7 @@
 					"numoutlets" : 2,
 					"offset" : [ -140.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 859.0, 70.0, 21.5, 17.0 ]
+					"patching_rect" : [ 859.0, 70.0, 20.5, 17.0 ]
 				}
 
 			}
@@ -934,7 +993,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.0, 0.21875, 0.5, 1.0 ],
+					"bgcolor" : [ 0.4, 0.8, 0.4, 1.0 ],
 					"id" : "obj-149",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -1050,6 +1109,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-149", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 1 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

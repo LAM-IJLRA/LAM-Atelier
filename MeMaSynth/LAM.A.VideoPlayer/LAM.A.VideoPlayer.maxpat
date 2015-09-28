@@ -52,8 +52,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 110.0, 174.0, 141.0 ],
-					"text" : "SDK.synth.system #1 #2 @nb_interfaces 4 @audioinputs 0 @audiooutputs 2 @videoinputs 1 @videooutputs 2 @pitch_enable 1 @pan_enable 1 @colortheme 0. 0.21875 0.5 1."
+					"patching_rect" : [ 25.0, 111.0, 158.0, 141.0 ],
+					"text" : "SDK.synth.system #1 #2 @nb_interfaces 4 @audioinputs 0 @audiooutputs 2 @videoinputs 1 @videooutputs 2 @pitch_enable 1 @pan_enable 1 @colortheme 0.4 0.4 0.8 1."
 				}
 
 			}
@@ -119,7 +119,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 289.0, 345.865387, 47.0, 20.0 ],
-									"presentation_rect" : [ 287.5, 349.365387, 0.0, 0.0 ],
 									"text" : "/ 1000."
 								}
 
@@ -1934,8 +1933,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 116.0, 30.0, 25.0, 25.0 ],
-													"presentation_rect" : [ 173.0, 60.0, 0.0, 0.0 ]
+													"patching_rect" : [ 116.0, 30.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -1970,6 +1968,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-1",
+													"linecount" : 4,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -2897,10 +2896,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 25.0, 273.0, 37.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 1"
 				}
 
@@ -2915,10 +2910,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 49.0, 30.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 

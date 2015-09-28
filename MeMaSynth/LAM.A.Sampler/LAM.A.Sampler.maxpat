@@ -88,7 +88,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 508.0, 323.0, 50.0, 45.0 ],
-									"text" : "MM4.GKCosmic.aif"
+									"text" : "MM4.FluteWhisle.aif"
 								}
 
 							}
@@ -3459,8 +3459,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 110.0, 172.0, 141.0 ],
-					"text" : "SDK.synth.system #1 #2 @nb_interfaces 4 @audioinputs 0 @audiooutputs 2 @videoinputs 1 @videooutputs 2 @pitch_enable 1 @pan_enable 1 @colortheme 0. 0.21875 0.5 1."
+					"patching_rect" : [ 25.0, 110.0, 158.0, 141.0 ],
+					"text" : "SDK.synth.system #1 #2 @nb_interfaces 4 @audioinputs 0 @audiooutputs 2 @videoinputs 1 @videooutputs 2 @pitch_enable 1 @pan_enable 1 @colortheme 0.4 0.8 0.4 1."
 				}
 
 			}
@@ -4880,7 +4880,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 350.5, 230.0, 205.0, 18.0 ],
-									"text" : "MM4.GKCosmic.aif"
+									"text" : "MM4.FluteWhisle.aif"
 								}
 
 							}
@@ -5459,7 +5459,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 195.0, 282.0, 117.0, 18.0 ],
-									"text" : "MM4.GKCosmic.aif"
+									"text" : "MM4.FluteWhisle.aif"
 								}
 
 							}
@@ -10775,10 +10775,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 25.0, 273.0, 37.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 1"
 				}
 
@@ -10793,10 +10789,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 49.0, 30.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
