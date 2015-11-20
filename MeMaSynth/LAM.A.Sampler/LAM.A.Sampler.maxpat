@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 34.0, 224.0, 1043.0, 465.0 ],
+		"rect" : [ 463.0, 81.0, 1043.0, 465.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 13.0, 198.0, 590.0, 512.0 ],
+						"rect" : [ 388.0, 225.0, 590.0, 512.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -88,7 +88,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 508.0, 323.0, 50.0, 45.0 ],
-									"text" : "MM4.GKCosmic.aif"
+									"text" : "MM4.FluteWhisle.aif"
 								}
 
 							}
@@ -3510,7 +3510,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 163.0, 186.0, 798.0, 516.0 ],
+						"rect" : [ 534.0, 184.0, 798.0, 516.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4579,7 +4579,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 350.5, 230.0, 205.0, 18.0 ],
-									"text" : "MM4.GKCosmic.aif"
+									"text" : "MM4.FluteWhisle.aif"
 								}
 
 							}
@@ -5107,7 +5107,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 195.0, 282.0, 117.0, 18.0 ],
-									"text" : "MM4.GKCosmic.aif"
+									"text" : "MM4.FluteWhisle.aif"
 								}
 
 							}
@@ -10432,6 +10432,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 25.0, 273.0, 37.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -10446,6 +10450,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 49.0, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
