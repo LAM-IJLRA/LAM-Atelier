@@ -21,6 +21,7 @@
 *.rar
 *.tar
 *.zip
+*.app
 
 # Logs and databases #
 ######################
