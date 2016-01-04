@@ -1917,8 +1917,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 45.0, 19.0, 321.0, 87.0 ],
-									"text" : "- ajouter un bouton clear\n- générer la liste des symbole à partir du dossier d’images\n- transitions de couleur ?\n=> ajouter des types d’événement différents ?\n- couleur du background plus claire = OK\n- couleur du cube plus claire = \n"
+									"patching_rect" : [ 45.0, 19.0, 348.0, 87.0 ],
+									"text" : "- ajouter un bouton clear = ok\n- générer la liste des symbole à partir du dossier d’images = ok\n- transitions de couleur ?\n=> ajouter des types d’événement différents ?\n- couleur du background plus claire = OK\n- couleur du cube plus claire = OK"
 								}
 
 							}
