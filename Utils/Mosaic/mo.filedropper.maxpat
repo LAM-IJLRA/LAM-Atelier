@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 50.0, 95.0, 760.0, 580.0 ],
+		"rect" : [ 198.0, 160.0, 760.0, 580.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -31,12 +31,48 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-15",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 450.0, 108.0, 69.0, 18.0 ],
+					"text" : "clear, bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.920924, 0.009302, 0.009302, 1.0 ],
+					"bgoncolor" : [ 0.54902, 0.021171, 0.0, 1.0 ],
+					"bgovercolor" : [ 0.698039, 0.026918, 0.0, 1.0 ],
+					"border" : 1,
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 8.0,
+					"id" : "obj-11",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 449.0, 72.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 66.911781, 0.0, 13.088215, 10.450954 ],
+					"rounded" : 2.0,
+					"text" : "X"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 380.0, 282.0, 80.0, 20.0 ],
-					"presentation_rect" : [ 380.0, 309.0, 0.0, 0.0 ],
 					"text" : "s framecount"
 				}
 
@@ -235,20 +271,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-17",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 317.0, 139.0, 86.0, 18.0 ],
-					"text" : "framedump $1"
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -265,6 +287,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -291,7 +322,7 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-16", 0 ]
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -300,7 +331,7 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-17", 0 ]
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
