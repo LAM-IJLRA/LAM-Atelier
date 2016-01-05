@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 175.0, 890.0, 355.0 ],
+		"rect" : [ 100.0, 353.0, 1019.0, 473.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,6 +29,46 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.992435, 0.883483, 0.874172, 1.0 ],
+					"bgoncolor" : [ 0.72549, 0.03496, 0.0, 1.0 ],
+					"bgovercolor" : [ 0.99707, 0.874943, 0.879832, 1.0 ],
+					"bgoveroncolor" : [ 0.545098, 0.041972, 0.0, 1.0 ],
+					"border" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 804.0, 61.0, 53.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 804.0, 19.0, 100.0, 42.0 ],
+					"rounded" : 6.0,
+					"text" : "PLAY",
+					"texton" : "PLAY"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "#1", "#2", "/play" ],
+					"id" : "obj-8",
+					"maxclass" : "bpatcher",
+					"name" : "SDK.toggle.GUI.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ -140.0, 0.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 859.0, 61.0, 20.5, 17.0 ],
+					"presentation_rect" : [ 859.0, 19.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -89,10 +129,10 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.747858, 0.71544, 1.0 ],
-					"bgoncolor" : [ 0.056616, 0.725161, 0.001578, 1.0 ],
-					"bgovercolor" : [ 1.0, 0.478227, 0.481179, 1.0 ],
-					"bgoveroncolor" : [ 0.018529, 0.545559, 0.0, 1.0 ],
+					"bgcolor" : [ 0.999966, 0.995214, 0.931632, 1.0 ],
+					"bgoncolor" : [ 0.936026, 0.768963, 0.035463, 1.0 ],
+					"bgovercolor" : [ 0.999971, 0.995859, 0.940703, 1.0 ],
+					"bgoveroncolor" : [ 0.73287, 0.679969, 0.027511, 1.0 ],
 					"border" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -103,7 +143,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 804.0, 70.0, 53.0, 17.0 ],
+					"patching_rect" : [ 804.0, 80.0, 53.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 166.0, 153.0, 100.0, 42.0 ],
 					"rounded" : 6.0,
@@ -2270,7 +2310,7 @@
 					"numoutlets" : 2,
 					"offset" : [ -140.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 859.0, 70.0, 20.5, 17.0 ]
+					"patching_rect" : [ 859.0, 80.0, 20.5, 17.0 ]
 				}
 
 			}
@@ -2476,6 +2516,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-149", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -2539,12 +2588,239 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "SDK.float.GUI.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "r.d2.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vd.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sw.d2.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "s.d2.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SDK.synth.GUI.system.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SDK.toggle.GUI.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.A.Sampler.PresetEditor.ColorPicker.maxpat",
+				"bootpath" : "/Applications/MM4/LAM-Atelier/MeMaSynth/LAM.A.Sampler/ressources",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SDK.float.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SDK.toggle.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.A.Sampler.PresetEditor.SamplePicker.maxpat",
+				"bootpath" : "/Applications/MM4/LAM-Atelier/MeMaSynth/LAM.A.Sampler/ressources",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SDK.buffer.GUI.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sw.maxpat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "panel.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "button.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "textbutton.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "comment.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "combine.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "toggle.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "patcherargs.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "tosymbol.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fromsymbol.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "append.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "iter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sprintf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zl.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "hint.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "loadmess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "deferlow.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "coll.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pak.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "modifiers.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "forward.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "speedlim.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "vexpr.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "swatch.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "minimum.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "maximum.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "multislider.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "clip.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "number.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "delay.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "textedit.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "waveform~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "umenu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fpic.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "info~.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

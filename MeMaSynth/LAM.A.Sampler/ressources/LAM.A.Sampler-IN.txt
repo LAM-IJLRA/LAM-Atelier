@@ -1,4 +1,5 @@
 /level, Audio "Niveau de sortie" @min 0. @max 100. @norm 0. @help "Niveau de sortie audio /%";
+/play, type_toggle "Play the chosen sample";
 /loop, type_float "loop mode" @help "Mode boucle on/off";
 /sample1, type_buffer /sample1;
 /sample1/play, type_toggle /sample1/play @help "play sample1";
