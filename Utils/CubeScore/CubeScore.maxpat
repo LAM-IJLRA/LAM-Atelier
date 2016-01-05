@@ -3333,8 +3333,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 58.0, 37.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 431.0, 16.0, 37.0, 20.0 ],
-					"text" : "v 0.2"
+					"presentation_rect" : [ 422.0, 20.0, 43.0, 20.0 ],
+					"text" : "v 0.3"
 				}
 
 			}
@@ -18989,13 +18989,6 @@
 				"bootpath" : "/Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
 				"patcherrelativepath" : "../../../../Max 6.1/examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scoreExample.coll",
-				"bootpath" : "/Applications/MM4/LAM-Atelier/Utils/CubeScore",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
